@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E84C3C;
+    background-image: linear-gradient(45deg, #3d3d3d 0%,#7d5fff 100%);
+   
+}
+
+.searchBar{
+    height:20vh;
+}
+.search-box{
+   position: absolute;
+   top:40%;
+   left:50%;
+   transform: translate(-50%,-50%);
+  
+}
+
+ .btn.btn-search{
+    border-radius: 0px ;
+    height: 50px;
+    background:#7158e2;
+    border: 2px solid white;
+    color: #fff;
+
+ }
+ .btn.btn-search:hover{
+    background:#17c0eb;
+ }
+.search-input:focus{
+    outline: none;
+    -webkit-box-shadow : none;
+    box-shadow: none;
+}
+.img{
+    clip-path: circle();
+    height:100px;
+    width:100px;
+}
+.kuralTamil{
+    background-color: #2C2927;
+    color: white;
+    padding:20px;
+    height:auto; 
+    width:500px;
+    text-align: center;
+    border:3px solid  #7158e2;
+    border-radius: 30px;
+    margin: 20px;
+    
+}
+.kuralEng{
+    background-color: #2C2927;
+    color: white;
+    height:auto;
+    width:500px;
+    padding:20px;
+    text-align: center;
+    border:3px solid  #7158e2;
+    border-radius: 30px;
+    margin: 20px;
+   
+}
+.kuralTamil:hover, .kuralEng:hover{
+    color: black;
+   background-image: linear-gradient(to left, #4b4b4b,#17c0eb);
+   transform: translate(5%,5%) scale(1);
+}
